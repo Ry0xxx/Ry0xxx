@@ -2,5 +2,7 @@
   "name": "STUDIO AURA - デジタルデザイン＆エンジニアリング",
   "description": "東京を拠点に、UI/UXデザイン・Webアプリケーション開発・DX推進を手がけるクリエイティブテックスタジオ。洗練されたビジュアルと堅牢なテクノロジーで事業成長を加速します。",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

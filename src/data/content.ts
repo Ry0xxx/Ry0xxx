@@ -1,6 +1,10 @@
 import { ServiceItem, CaseStudy } from '../types';
+import heroStudioImg from '../assets/images/hero_creative_studio_tokyo_1791348314922.jpg';
+import fintechDashboardImg from '../assets/images/case_study_fintech_dashboard_1791348326590.jpg';
+import lifestyleBrandImg from '../assets/images/case_study_lifestyle_brand_1791348337641.jpg';
+import mobilityAppImg from '../assets/images/case_study_mobility_app_1791348346503.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/hero_creative_studio_tokyo_1791348314922.jpg';
+export const HERO_IMAGE = heroStudioImg;
 
 export const SERVICES: ServiceItem[] = [
   {
@@ -83,7 +87,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     categoryLabel: 'Fintech / 金融',
     categoryLabelEn: 'Fintech & Wealth Management',
     year: '2026',
-    image: '/src/assets/images/case_study_fintech_dashboard_1791348326590.jpg',
+    image: fintechDashboardImg,
     summary: '富裕層および個人投資家向けの次世代アセットマネジメントプラットフォーム。複雑な金融資産ポートフォリオを直感的なインタラクションで可視化。',
     summaryEn: 'Next-generation asset management platform for private wealth clients, turning intricate financial portfolios into actionable, intuitive interfaces.',
     metrics: [
@@ -116,7 +120,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     categoryLabel: 'Artisan / EC',
     categoryLabelEn: 'Artisan Craft & Global EC',
     year: '2025',
-    image: '/src/assets/images/case_study_lifestyle_brand_1791348337641.jpg',
+    image: lifestyleBrandImg,
     summary: '創業120年の京都の伝統金工・茶道具メーカーのグローバルリブランディングと越境ECサイト構築。職人のクラフトマンシップを世界へ届けるデジタル体験。',
     summaryEn: 'Global rebranding and headless e-commerce for a 120-year-old Kyoto metallurgy artisan studio, bringing historic craftsmanship to global collectors.',
     metrics: [
@@ -149,7 +153,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     categoryLabel: 'Mobility / IoT',
     categoryLabelEn: 'Mobility & IoT Platform',
     year: '2026',
-    image: '/src/assets/images/case_study_mobility_app_1791348346503.jpg',
+    image: mobilityAppImg,
     summary: '都市型シェアリングEVおよび法人車両向けの統合テレマティクス運行管理ダッシュボード。数千台の車両データを遅延なく可視化。',
     summaryEn: 'Integrated telematics fleet operations console for urban electric vehicle fleets, rendering live telemetry from thousands of assets with sub-200ms latency.',
     metrics: [
